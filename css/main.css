@@ -157,3 +157,18 @@ header{
     width: 100px;
     border-radius: 8px;
 }
+
+
+
+.footer{
+    background-color: #FFDD00;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer p{
+    margin: 0px;
+}
+.footer h2{
+    font-weight: normal;
+}
