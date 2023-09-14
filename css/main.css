@@ -163,6 +163,7 @@ header{
 
 
 .footer{
+    padding-top: 25px;
     background-color: #FFDD00;
     margin-top: 80px;
     display: flex;
