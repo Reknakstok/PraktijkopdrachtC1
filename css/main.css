@@ -150,3 +150,7 @@ header{
 .docent{
     margin: 10px 10px 10px 10px;
 }
+.docent img{
+    width: 100px;
+    border-radius: 8px;
+}
