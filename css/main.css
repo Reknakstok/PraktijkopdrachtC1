@@ -148,9 +148,12 @@ header{
     grid-template-rows: repeat(2, 1fr);
 }
 .docent{
+    padding: auto;
+    text-align: center;
     margin: 10px 10px 10px 10px;
 }
 .docent img{
+    border: 1px solid black;
     width: 100px;
     border-radius: 8px;
 }
