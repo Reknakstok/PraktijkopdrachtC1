@@ -1,0 +1,144 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 48px;
+}
+p { 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 24px;
+}
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+
+header{
+    background-color: #FFDD00;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 50px 0px 50px;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+
+
+.welkom{
+    width: 1080px;
+    margin: auto;
+    margin-top: 40px;
+}
+.welkom h1{
+    color: #FFDD00;
+}
+
+
+
+.opleidingsoverzicht {
+    width: 1080px;
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.opleidingsoverzicht img {
+    width: 50%;
+}
+
+
+
+.blokBackground{
+    background-color: #FFDD00;
+}
+.blok{
+    width: 1080px;
+    margin: auto;
+    margin-top: 80px;
+}
+.vakken{
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.vak{
+    background-color: orange;
+    border: 3px solid black;
+    border-radius: 8px;
+    margin: 10px 10px 10px 0px;
+}
+.vaktext{
+    margin: auto;
+    margin: 10px 10px 10px 10px;
+}
+
+
+
+.rooster{
+    width: 1080px;
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.roostertext h1 {
+    margin-right: 10px;
+}
+.roostertext p {
+    margin-right: 50px;
+}
+.rooster img{
+    width: 50%;
+    border: 1px solid black;
+}
+
+
+
+.overBackground{
+    background-color: #FFDD00;
+}
+.over{
+    width: 1080px;
+    margin: auto;
+    margin-top: 80px;
+}
+.locatie{
+    background-color: #FFDD00;
+    display: flex;
+    justify-content: space-between;
+}
+.locatie img {
+    width: 75%;
+    border: 1px solid black;
+    margin-bottom: 24px;
+}
+.Breda{
+    padding: auto;
+    text-align: center;
+}
+.Roosendaal{
+    padding: auto;
+    text-align: center;
+}
+
+
+
+.docenten {
+    width: 1080px;
+    margin: auto;
+    margin-top: 80px;
+}
