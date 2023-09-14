@@ -65,12 +65,13 @@ header{
     background-color: #FFDD00;
 }
 .blok{
+    padding-top: 5px;
     width: 1080px;
     margin: auto;
     margin-top: 80px;
 }
 .vakken{
-    margin-top: 25px;
+    padding: 25px 0px 25px 0px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -82,7 +83,7 @@ header{
     margin: 10px 10px 10px 0px;
 }
 .vaktext{
-    margin: 10px 10px 10px 10px;
+    margin: 10px 10px 0px 10px;
 }
 
 
@@ -111,6 +112,7 @@ header{
     background-color: #FFDD00;
 }
 .over{
+    padding-top: 5px;
     width: 1080px;
     margin: auto;
     margin-top: 80px;
@@ -123,7 +125,7 @@ header{
 .locatie img {
     width: 75%;
     border: 1px solid black;
-    margin-bottom: 24px;
+    margin-bottom: 25px;
 }
 .Breda{
     padding: auto;
