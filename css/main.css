@@ -20,6 +20,7 @@ h3 {
 }
 
 
+
 header{
     background-color: #FFDD00;
 }
@@ -174,4 +175,95 @@ header{
 }
 .footer h2{
     font-weight: normal;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .header .links {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .main {
+        padding: 20px;
+    }
+
+    .welkom {
+        width: 100%;
+    }
+
+    .opleidingsoverzicht {
+        flex-direction: column;
+    }
+
+    .opleidingsoverzicht img {
+        width: 100%;
+    }
+
+    .blokBackground {
+        background-color: #FFDD00;
+    }
+
+    .blok {
+        width: 100%;
+    }
+
+    .vakken {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .vak {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .rooster {
+        flex-direction: column;
+    }
+
+    .rooster img {
+        width: 100%;
+    }
+
+    .overBackground {
+        background-color: #FFDD00;
+    }
+
+    .over {
+        width: 100%;
+    }
+
+    .locatie {
+        flex-direction: column;
+    }
+
+    .locatie img {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .docenten {
+        width: 100%;
+    }
+
+    .alleDocenten {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .docent img {
+        width: 80px;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 }
